@@ -6,22 +6,20 @@ from sqlalchemy.orm import Session
 from ...db import base as db_base
 from ...schemas import schemas
 from ...crud import crud_user
-from ...core import security, config # <-- IMPORTAR CONFIG
+from ...core import security, config
 from ..deps import get_current_user
 from ...db import models
 
-router = APIRouter()
+# Prefijo para que quede /api/v1/auth/...
+router = APIRouter(prefix="/auth", tags=["auth"])
 
-ACCESS_TOKEN_EXPIRE_MINUTES = 30 # O el valor que prefieras
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 @router.post("/token", response_model=schemas.Token)
 def login_for_access_token(
     db: Session = Depends(db_base.get_db),
     form_data: OAuth2PasswordRequestForm = Depends()
 ):
-    """
-    Endpoint para el login de usuario. Devuelve un token de acceso.
-    """
     user = crud_user.get_user_by_email(db, email=form_data.username)
     if not user or not security.verify_password(form_data.password, user.hashed_password):
         raise HTTPException(
@@ -33,23 +31,12 @@ def login_for_access_token(
     access_token = security.create_access_token(
         data={"sub": user.email}, expires_delta=access_token_expires
     )
-    # Crear también refresh token
-    refresh_token_expires = timedelta(days=7)  # Refresh token dura más
+    refresh_token_expires = timedelta(days=7)
     refresh_token = security.create_access_token(
         data={"sub": user.email}, expires_delta=refresh_token_expires
     )
-
-    return {
-        "access_token": access_token, 
-        "refresh_token": refresh_token,
-        "token_type": "bearer"
-    }
+    return {"access_token": access_token, "refresh_token": refresh_token, "token_type": "bearer"}
 
 @router.get("/me", response_model=schemas.UserResponse)
-def read_current_user(
-    current_user: models.User = Depends(get_current_user)
-):
-    """
-    Obtiene los datos del usuario autenticado.
-    """
+def read_current_user(current_user: models.User = Depends(get_current_user)):
     return current_user

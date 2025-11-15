@@ -7,7 +7,7 @@ from ...schemas import schemas
 from ...crud import crud_user
 from ...core import security, config
 
-router = APIRouter()
+router = APIRouter(prefix="/users", tags=["users"])
 
 @router.post("/", response_model=schemas.Token, status_code=status.HTTP_201_CREATED)
 def create_user(user: schemas.UserCreate, db: Session = Depends(db_base.get_db)):

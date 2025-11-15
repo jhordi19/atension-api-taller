@@ -1,9 +1,9 @@
 # schemas/schemas.py (ACTUALIZADO Y CORREGIDO)
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field, ConfigDict
 from typing import List, Optional
 from datetime import date, datetime
 from enum import Enum
-from pydantic import ConfigDict
+from app.core.bp_logic import BPCategory  # <- ADD
 
 # --- Clases Enum para validación estricta de entradas ---
 class SmokingHabit(str, Enum):
@@ -87,3 +87,41 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     email: Optional[str] = None
+
+# --- Esquemas para Presión Arterial (CORREGIDOS) ---
+class BPBase(BaseModel):
+    systolic: int = Field(..., ge=50, le=260)
+    diastolic: int = Field(..., ge=30, le=180)
+    taken_at: datetime
+
+class BPCreate(BPBase):
+    pass
+
+class BPOut(BPBase):
+    id: int
+    category: BPCategory
+    model_config = ConfigDict(from_attributes=True)
+
+class BPList(BaseModel):
+    items: list[BPOut]
+    total: int
+
+# --- Esquemas para Factores de Riesgo (CORREGIDOS) ---
+class RiskFactorBase(BaseModel):
+    id: int
+    title: str
+    description: str
+    recommendations: List[str]
+    level: str
+    icon_key: str
+
+    class Config:
+        orm_mode = True
+
+class ProfileSummary(BaseModel):
+    age: int
+    gender: str
+    bmi: float
+    bmi_category: str
+    risk_factors: List[RiskFactorBase]
+    days_until_next: int

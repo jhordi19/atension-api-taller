@@ -1,8 +1,10 @@
 # db/models.py
-from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, DateTime
+from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, DateTime, Enum as SAEnum, func
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from .base import Base
+from app.core.bp_logic import BPCategory
+from sqlalchemy import Enum as PgEnum
 
 class User(Base):
     __tablename__ = "users"
@@ -37,3 +39,15 @@ class Evaluation(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     user = relationship("User", back_populates="evaluations")
+
+class BloodPressure(Base):
+    __tablename__ = "blood_pressures"
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False)
+    systolic = Column(Integer, nullable=False)
+    diastolic = Column(Integer, nullable=False)
+    taken_at = Column(DateTime(timezone=True), nullable=False)
+    category = Column(PgEnum(BPCategory, name="bp_category"), nullable=False)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    user = relationship("User", backref="blood_pressures")

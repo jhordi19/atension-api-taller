@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .db import base as db_base
-from .api.endpoints import users, auth, evaluations
+from .api.endpoints import users, auth, evaluations, pressures
 
 # Crea las tablas en la base de datos (si no existen)
 # En un entorno de producción, manejarías esto con migraciones (ej. Alembic)
@@ -23,8 +23,9 @@ app.add_middleware(
         "http://localhost:8080",
         "http://127.0.0.1:8080",
         "http://192.168.1.100:3000",  # ← Añadir tu IP
-        "http://192.168.1.100:8080",  # ← Añadir tu IP
-        "*", 
+        "http://192.168.1.100:8080",
+        "http://10.245.160.80:8080",
+        "http://10.245.160.80:3000",  # ← Añadir tu IP
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -34,9 +35,10 @@ app.add_middleware(
 # Incluir los routers de los endpoints
 api_prefix = "/api/v1"
 
-app.include_router(users.router, prefix=f"{api_prefix}/users", tags=["Users"])
-app.include_router(auth.router, prefix=f"{api_prefix}/auth", tags=["Auth"])
-app.include_router(evaluations.router, prefix=f"{api_prefix}/evaluations", tags=["Evaluations"])
+app.include_router(users.router, prefix=api_prefix)
+app.include_router(auth.router, prefix=api_prefix)
+app.include_router(evaluations.router, prefix=api_prefix)
+app.include_router(pressures.router, prefix=api_prefix)
 
 @app.get("/", tags=["Root"])
 def read_root():
