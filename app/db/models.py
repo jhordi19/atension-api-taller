@@ -2,7 +2,7 @@
 from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, DateTime, Enum as SAEnum, func
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from base import Base
+from db.base import Base
 from core.bp_logic import BPCategory
 from sqlalchemy import Enum as PgEnum
 
