@@ -10,6 +10,7 @@ ecdsa==0.19.1
 email-validator==2.3.0
 fastapi==0.117.1
 cloud-sql-python-connector[pg8000]
+pg8000
 greenlet==3.2.4
 h11==0.16.0
 idna==3.10
