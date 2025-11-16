@@ -19,7 +19,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar el proyecto
 COPY app/ /app/
 
+ENV PYTHONPATH=/app
+
 EXPOSE 8080
 
-# CORRECCIÓN DE CMD: Busca el módulo 'main' en la raíz (/app) y el objeto 'app'.
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+# El CMD puede usar la ruta completa del paquete
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]

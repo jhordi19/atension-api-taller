@@ -1,8 +1,8 @@
-# main.py
+# main.py corregido
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-# CORREGIDO: Quitar 'app.'
+# CORRECCIÓN: Usar la ruta simple del módulo/directorio
 from db import base as db_base
 from api.endpoints import users, auth, evaluations, pressures
 from db.update_enum import update_bp_category_enum
