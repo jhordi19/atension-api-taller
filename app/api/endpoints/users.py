@@ -2,10 +2,10 @@
 from datetime import timedelta
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from ...db import base as db_base
-from ...schemas import schemas
-from ...crud import crud_user
-from ...core import security, config
+from db import base as db_base
+from schemas import schemas
+from crud import crud_user
+from core import security, config
 
 router = APIRouter(prefix="/users", tags=["users"])
 

@@ -4,11 +4,11 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List, Optional
 
-from ...db import base as db_base, models
-from ...schemas import schemas
-from ...crud import crud_evaluation
-from ...ml.predictor import predictor
-from ..deps import get_current_user
+from db import base as db_base, models
+from schemas import schemas
+from crud import crud_evaluation
+from ml.predictor import predictor
+from deps import get_current_user
 
 # Asegura el prefijo del módulo
 router = APIRouter(prefix="/evaluations", tags=["evaluations"])

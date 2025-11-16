@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
-from app.api.deps import get_db, get_current_user
-from app.schemas.schemas import BPCreate, BPOut, BPList
-from app.crud.crud_pressure import create_for_user, get_last, get_list, delete_one
+from api.deps import get_db, get_current_user
+from schemas.schemas import BPCreate, BPOut, BPList
+from crud.crud_pressure import create_for_user, get_last, get_list, delete_one
 
 router = APIRouter(prefix="/pressures", tags=["pressures"])
 
