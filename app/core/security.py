@@ -1,21 +1,22 @@
-# core/security.py (ACTUALIZADO)
 from datetime import datetime, timedelta, timezone
 from typing import Optional
 from jose import JWTError, jwt
 from passlib.context import CryptContext
-from core.config import settings  # Importa settings desde el módulo de configuración
+from fastapi.security import OAuth2PasswordBearer  # <-- IMPORTANTE
+from core.config import settings
 
-# Usamos pbkdf2_sha256 (sin límite de 72 bytes como bcrypt)
+# OAuth2PasswordBearer para extracción de token desde "Authorization: Bearer <token>"
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/token")
+
 pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 
-MAX_PASSWORD_LEN = 256  # límite razonable para evitar abuso
+MAX_PASSWORD_LEN = 256
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     to_encode = data.copy()
     if expires_delta:
         expire = datetime.now(timezone.utc) + expires_delta
     else:
-        # Usa el valor de la configuración
         expire = datetime.now(timezone.utc) + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)
     
     to_encode.update({"exp": expire})
