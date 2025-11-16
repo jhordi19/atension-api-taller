@@ -18,9 +18,9 @@ def get_current_user(db: Session = Depends(get_db), token: str = Depends(securit
 
     try:
         payload = jwt.decode(
-            token,
-            config.settings.SECRET_KEY,
-            algorithms=[security.ALGORITHM],
+        token,
+        config.settings.SECRET_KEY,
+        algorithms=[config.settings.ALGORITHM]
         )
         email: str = payload.get("sub")
         if email is None:
