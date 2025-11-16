@@ -15,8 +15,7 @@ idna==3.10
 joblib==1.5.2
 numpy==2.3.3
 passlib==1.7.4
-psycopg2-binary==2.9.10
-cloud-sql-python-connector[psycopg2]
+google-cloud-sql-connector[pg8000]
 pyasn1==0.6.1
 pycparser==2.23
 pydantic==2.11.9
