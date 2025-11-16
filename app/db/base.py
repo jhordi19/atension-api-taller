@@ -1,6 +1,6 @@
 # db/base.py
 
-from google.cloud.sql.connector import Connector
+from cloud_sql_python_connector import Connector
 import sqlalchemy
 from sqlalchemy.orm import sessionmaker, declarative_base
 from core.config import settings
