@@ -9,13 +9,14 @@ dnspython==2.8.0
 ecdsa==0.19.1
 email-validator==2.3.0
 fastapi==0.117.1
+google-cloud-sql-connector[pg8000]==1.7.0
+pg8000==1.30.5
 greenlet==3.2.4
 h11==0.16.0
 idna==3.10
 joblib==1.5.2
 numpy==2.3.3
 passlib==1.7.4
-google-cloud-sql-connector[pg8000]
 pyasn1==0.6.1
 pycparser==2.23
 pydantic==2.11.9
