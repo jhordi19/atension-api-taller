@@ -30,8 +30,16 @@ engine = sqlalchemy.create_engine(
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# ⬇ IMPORTA LOS MODELOS AL FINAL, DESPUÉS DE DEFINIR Base Y engine
-from . import models  # SOLO esto
+# Importa los modelos al final
+from . import models
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
 
 def init_db():
     Base.metadata.create_all(bind=engine)
