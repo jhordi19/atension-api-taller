@@ -8,7 +8,7 @@ from db.base import get_db
 from db import models
 from schemas import schemas
 from crud import crud_evaluation
-from ml.predictor import predictor
+from app.ml.predictor import predictor
 from api.deps import get_current_user
 
 router = APIRouter(prefix="/evaluations", tags=["evaluations"])

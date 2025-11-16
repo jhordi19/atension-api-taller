@@ -5,7 +5,6 @@ from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordBearer
 from core.config import settings
 
-# Debe coincidir EXACTAMENTE con tu endpoint de login
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 
 pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
