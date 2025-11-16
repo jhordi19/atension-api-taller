@@ -7,13 +7,15 @@ WORKDIR /app
 # Copiar requirements.txt primero
 COPY app/requirements.txt .
 
-# Instalar dependencias de Python (ya no se necesita gcc)
+# Instalar dependencias de Python
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el código de la aplicación
 COPY app/ /app/
 
+# Exponer el puerto (documentación)
+EXPOSE 8080
+
 # Comando para ejecutar la aplicación
-# Este CMD es más flexible: lee el puerto $PORT
-# que Cloud Run le da automáticamente.
-CMD uvicorn main:app --host 0.0.0.0 --port $PORT
+# Cloud Run inyecta PORT=8080 por defecto
+CMD exec uvicorn main:app --host 0.0.0.0 --port ${PORT:-8080}
