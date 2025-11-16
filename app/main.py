@@ -2,10 +2,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .db import base as db_base
-from .api.endpoints import users, auth, evaluations, pressures
-from .db.update_enum import update_bp_category_enum
-
+from app.db import base as db_base
+from app.api.endpoints import users, auth, evaluations, pressures
+from app.db.update_enum import update_bp_category_enum
 
 app = FastAPI(
     title="aTensión Backend API",
