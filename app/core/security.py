@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 from typing import Optional
 from jose import JWTError, jwt
 from passlib.context import CryptContext
-from app.core.config import settings  # Importa settings desde el módulo de configuración
+from core.config import settings  # Importa settings desde el módulo de configuración
 
 # Usamos pbkdf2_sha256 (sin límite de 72 bytes como bcrypt)
 pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")

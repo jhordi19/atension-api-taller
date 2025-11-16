@@ -3,7 +3,7 @@ from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, Date
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from .base import Base
-from app.core.bp_logic import BPCategory
+from core.bp_logic import BPCategory
 from sqlalchemy import Enum as PgEnum
 
 class User(Base):

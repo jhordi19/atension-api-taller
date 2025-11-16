@@ -3,7 +3,7 @@ from pydantic import BaseModel, EmailStr, Field, ConfigDict
 from typing import List, Optional
 from datetime import date, datetime
 from enum import Enum
-from app.core.bp_logic import BPCategory  # <- ADD
+from core.bp_logic import BPCategory  # <- ADD
 
 # --- Clases Enum para validación estricta de entradas ---
 class SmokingHabit(str, Enum):

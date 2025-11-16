@@ -1,5 +1,5 @@
 from sqlalchemy import text
-from app.db.base import engine
+from db.base import engine
 
 def update_bp_category_enum():
     """
