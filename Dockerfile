@@ -17,8 +17,9 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el proyecto
-COPY app/ /app/app/
+COPY app/ /app/
 
 EXPOSE 8080
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+# CORRECCIÓN DE CMD: Busca el módulo 'main' en la raíz (/app) y el objeto 'app'.
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
