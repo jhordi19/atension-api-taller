@@ -1,19 +1,18 @@
+# api/endpoints/evaluations.py
 import time
 import logging
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List, Optional
-
-from db import base as db_base, models
+from db.base import get_db
+from db import models
 from schemas import schemas
 from crud import crud_evaluation
 from ml.predictor import predictor
-from deps import get_current_user
+from api.deps import get_current_user
 
-# Asegura el prefijo del módulo
 router = APIRouter(prefix="/evaluations", tags=["evaluations"])
 
-# Logger dedicado solo para el endpoint de riesgo
 risk_logger = logging.getLogger("risk_endpoint")
 risk_logger.propagate = False
 if not risk_logger.handlers:
@@ -28,7 +27,7 @@ def _bmi_category_from_imc(imc: Optional[float]) -> str:
         return "Desconocido"
     try:
         v = float(imc)
-    except Exception:
+    except:
         return "Desconocido"
     if v < 18.5:
         return "Bajo peso"
@@ -41,10 +40,10 @@ def _bmi_category_from_imc(imc: Optional[float]) -> str:
 @router.post("/", response_model=schemas.EvaluationResponse, status_code=status.HTTP_201_CREATED)
 def create_new_evaluation(
     evaluation_in: schemas.EvaluationCreate,
-    db: Session = Depends(db_base.get_db),
+    db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user)
 ):
-    start_time = time.time()
+    start = time.time()
 
     user_data = {
         "birth_date": current_user.birth_date,
@@ -56,7 +55,7 @@ def create_new_evaluation(
         evaluation_data=evaluation_in
     )
 
-    db_evaluation = crud_evaluation.create_evaluation(
+    db_eval = crud_evaluation.create_evaluation(
         db=db,
         user_id=current_user.id,
         evaluation_in=evaluation_in,
@@ -66,44 +65,34 @@ def create_new_evaluation(
         age=age
     )
 
-    process_time = (time.time() - start_time) * 1000  # tiempo en ms
-
     risk_logger.info(
-        f"Evaluación creada | Tiempo: {process_time:.2f} ms | Usuario: {current_user.id} | Path: /api/v1/evaluations/"
+        f"Evaluación creada | Tiempo: {(time.time()-start)*1000:.2f} ms | Usuario {current_user.id}"
     )
 
-    return db_evaluation
+    return db_eval
 
 @router.get("/", response_model=List[schemas.EvaluationResponse])
 def read_user_evaluations(
-    db: Session = Depends(db_base.get_db),
+    db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user)
 ):
-    """
-    Obtiene el historial de evaluaciones del usuario autenticado.
-    """
-    evaluations = crud_evaluation.get_evaluations_by_user(
-        db, user_id=current_user.id
-    )
-    return evaluations
+    return crud_evaluation.get_evaluations_by_user(db, user_id=current_user.id)
 
 @router.get("/me", response_model=schemas.ProfileSummary)
 def read_my_latest_evaluation(
-    db: Session = Depends(db_base.get_db),
+    db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user),
 ):
     evaluation = crud_evaluation.get_last_evaluation_by_user(db, user_id=current_user.id)
     if not evaluation:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No evaluation found")
+        raise HTTPException(status_code=404, detail="No evaluation found")
 
     days_until_next = crud_evaluation.days_until_next_evaluation(evaluation)
 
-    # Datos base
     bmi = getattr(evaluation, "imc", None)
     bmi_category = _bmi_category_from_imc(bmi)
     gender = getattr(current_user, "gender", "Desconocido")
 
-    # Construcción completa de factores de riesgo
     risk_factors = []
     factor_id = 1
 

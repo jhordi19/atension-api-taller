@@ -8,7 +8,7 @@ from core.config import settings
 # Primero define Base
 Base = declarative_base()
 
-# Conector de Cloud SQL
+# Cloud SQL Connector
 connector = Connector(enable_iam_auth=False)
 
 def getconn():
@@ -30,8 +30,6 @@ engine = sqlalchemy.create_engine(
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# Importa los modelos al final
-from . import models
 
 def get_db():
     db = SessionLocal()
@@ -40,6 +38,9 @@ def get_db():
     finally:
         db.close()
 
+
+# IMPORTA MODELOS AL FINAL
+from db import models  # noqa
 
 def init_db():
     Base.metadata.create_all(bind=engine)
