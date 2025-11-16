@@ -2,13 +2,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# **Paso crucial:** Instalar herramientas de compilación y librerías científicas necesarias.
-# build-essential y libffi-dev son para la mayoría de paquetes (cffi, cryptography).
-# libatlas-base-dev y gfortran son necesarios para numpy, scipy y scikit-learn.
+# **CORRECCIÓN:** Cambiamos 'libatlas-base-dev' por 'libopenblas-dev'
 RUN apt-get update && apt-get install -y \
     build-essential \
     libffi-dev \
-    libatlas-base-dev \
+    libopenblas-dev \
     gfortran \
     # Limpieza final
     && apt-get clean \
@@ -16,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 
 COPY app/requirements.txt /app/requirements.txt
 
-# El pip install debería funcionar ahora sin errores de compilación
+# El pip install ahora debería poder compilar las librerías Python
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY app/ /app/app/
