@@ -16,4 +16,4 @@ COPY app/ /app/
 # Comando para ejecutar la aplicación
 # Este CMD es más flexible: lee el puerto $PORT
 # que Cloud Run le da automáticamente.
-CMD uvicorn main:app --host 0.0.0.0 --port 8080
+CMD uvicorn main:app --host 0.0.0.0 --port $PORT
