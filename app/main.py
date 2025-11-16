@@ -3,10 +3,14 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .db import base as db_base
 from .api.endpoints import users, auth, evaluations, pressures
+from .db.update_enum import update_bp_category_enum
 
 # Crea las tablas en la base de datos (si no existen)
 # En un entorno de producción, manejarías esto con migraciones (ej. Alembic)
 db_base.init_db()
+
+# Actualizar el enum bp_category si es necesario
+update_bp_category_enum()
 
 app = FastAPI(
     title="aTensión Backend API",
@@ -15,18 +19,10 @@ app = FastAPI(
 )
 
 # Configurar CORS para desarrollo local
+# NOTA: En producción, especifica los orígenes exactos en lugar de usar ["*"]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://localhost:8080",
-        "http://127.0.0.1:8080",
-        "http://192.168.1.100:3000",  # ← Añadir tu IP
-        "http://192.168.1.100:8080",
-        "http://10.245.160.80:8080",
-        "http://10.245.160.80:3000",  # ← Añadir tu IP
-    ],
+    allow_origins=["*"],  # Permite todos los orígenes en desarrollo
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

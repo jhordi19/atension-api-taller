@@ -103,7 +103,7 @@ def read_my_latest_evaluation(
     bmi_category = _bmi_category_from_imc(bmi)
     gender = getattr(current_user, "gender", "Desconocido")
 
-    # Construcción segura de factores (solo si existen los campos)
+    # Construcción completa de factores de riesgo
     risk_factors = []
     factor_id = 1
 
@@ -124,13 +124,13 @@ def read_my_latest_evaluation(
         })
         factor_id += 1
 
-    # Tabaquismo (si existe el campo)
-    smoking = getattr(evaluation, "smoking", None)
-    if isinstance(smoking, str) and smoking and smoking.lower() != "nunca":
-        level = "high" if smoking.lower() == "diario" else "moderate"
+    # Tabaquismo
+    smoking_habit = getattr(evaluation, "smoking_habit", None)
+    if smoking_habit and smoking_habit not in ["No Fumo", "Exfumador"]:
+        level = "high" if smoking_habit == "Fumo a diario" else "moderate"
         risk_factors.append({
             "id": factor_id,
-            "title": f"Fuma {smoking.lower()}",
+            "title": "Tabaquismo",
             "description": "El tabaquismo incrementa la rigidez arterial y acelera la hipertensión.",
             "recommendations": [
                 "Reduce progresivamente el número de cigarrillos",
@@ -142,9 +142,9 @@ def read_my_latest_evaluation(
         })
         factor_id += 1
 
-    # Actividad física (si existe)
-    physical_activity = getattr(evaluation, "physical_activity", None)
-    if isinstance(physical_activity, str) and physical_activity.lower() in ["nunca", "rara vez"]:
+    # Actividad física
+    daily_physical_activity = getattr(evaluation, "daily_physical_activity", None)
+    if daily_physical_activity is False:
         risk_factors.append({
             "id": factor_id,
             "title": "Sedentarismo",
@@ -154,25 +154,112 @@ def read_my_latest_evaluation(
                 "Usa escaleras en lugar de ascensor",
                 "Realiza pausas activas cada hora",
             ],
-            "level": "high",
+            "level": "moderate",
             "icon_key": "sedentary",
         })
         factor_id += 1
 
-    # Alcohol (si existe)
-    alcohol = getattr(evaluation, "alcohol_consumption", None)
-    if isinstance(alcohol, str) and alcohol.lower() not in ["nunca", "ocasionalmente"]:
+    # Colesterol alto
+    has_high_cholesterol = getattr(evaluation, "has_high_cholesterol", None)
+    if has_high_cholesterol is True:
         risk_factors.append({
             "id": factor_id,
-            "title": "Consumo de alcohol",
-            "description": "El consumo frecuente de alcohol eleva la presión arterial.",
+            "title": "Colesterol Alto",
+            "description": "El colesterol alto es un factor de riesgo importante para hipertensión.",
+            "recommendations": [
+                "Reduce el consumo de grasas saturadas",
+                "Aumenta el consumo de fibra",
+                "Considera medicación si el médico lo indica",
+            ],
+            "level": "high",
+            "icon_key": "cholesterol",
+        })
+        factor_id += 1
+
+    # Diabetes
+    diabetes_diagnosis = getattr(evaluation, "diabetes_diagnosis", None)
+    if diabetes_diagnosis and diabetes_diagnosis != "No":
+        level = "high" if diabetes_diagnosis == "Si" else "moderate"
+        risk_factors.append({
+            "id": factor_id,
+            "title": "Diabetes",
+            "description": "La diabetes aumenta significativamente el riesgo de hipertensión.",
+            "recommendations": [
+                "Controla tus niveles de glucosa regularmente",
+                "Sigue el tratamiento médico indicado",
+                "Mantén una dieta balanceada",
+            ],
+            "level": level,
+            "icon_key": "diabetes",
+        })
+        factor_id += 1
+
+    # Consumo de alcohol
+    alcohol_in_last_30_days = getattr(evaluation, "alcohol_in_last_30_days", None)
+    if alcohol_in_last_30_days is True:
+        risk_factors.append({
+            "id": factor_id,
+            "title": "Consumo de Alcohol",
+            "description": "El consumo de alcohol puede elevar la presión arterial.",
             "recommendations": [
                 "Limita el consumo a ocasiones especiales",
                 "Alterna bebidas alcohólicas con agua",
-                "Busca ayuda si sientes dependencia",
+                "No excedas 2 bebidas por día",
             ],
             "level": "moderate",
             "icon_key": "alcohol",
+        })
+        factor_id += 1
+
+    # Consumo de sal
+    reduces_salt_intake = getattr(evaluation, "reduces_salt_intake", None)
+    if reduces_salt_intake is False:
+        risk_factors.append({
+            "id": factor_id,
+            "title": "Alto Consumo de Sal",
+            "description": "El exceso de sal es un factor clave en el desarrollo de hipertensión.",
+            "recommendations": [
+                "Reduce el consumo de alimentos procesados",
+                "Cocina sin sal agregada",
+                "Lee las etiquetas nutricionales",
+            ],
+            "level": "moderate",
+            "icon_key": "salt",
+        })
+        factor_id += 1
+
+    # Estrés
+    stress_days_last_month = getattr(evaluation, "stress_days_last_month", None)
+    if stress_days_last_month and stress_days_last_month > 15:
+        risk_factors.append({
+            "id": factor_id,
+            "title": "Estrés Crónico",
+            "description": f"Has experimentado estrés {stress_days_last_month} días en el último mes.",
+            "recommendations": [
+                "Practica técnicas de relajación",
+                "Considera meditación o yoga",
+                "Busca apoyo profesional si es necesario",
+            ],
+            "level": "moderate",
+            "icon_key": "stress",
+        })
+        factor_id += 1
+
+    # Cigarrillo electrónico
+    e_cigarette_use = getattr(evaluation, "e_cigarette_use", None)
+    if e_cigarette_use and e_cigarette_use not in ["Nunca he usado", "Rara vez"]:
+        level = "high" if e_cigarette_use == "Diariamente" else "moderate"
+        risk_factors.append({
+            "id": factor_id,
+            "title": "Cigarrillo Electrónico",
+            "description": "El uso de cigarrillos electrónicos también afecta la salud cardiovascular.",
+            "recommendations": [
+                "Considera dejar gradualmente",
+                "Busca alternativas más saludables",
+                "Consulta con un especialista",
+            ],
+            "level": level,
+            "icon_key": "vaping",
         })
 
     return {
