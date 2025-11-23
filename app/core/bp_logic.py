@@ -1,10 +1,12 @@
 from enum import Enum
 
+
 class BPCategory(str, Enum):
     NORMAL = "NORMAL"
     ELEVADO = "ELEVADO"
     PREHIPERTENSION = "PREHIPERTENSION"
     HIPERTENSION = "HIPERTENSION"
+
 
 def classify_bp(systolic: int, diastolic: int) -> BPCategory:
     if systolic >= 140 or diastolic >= 90:

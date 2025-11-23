@@ -1,8 +1,9 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
-from db.models import BloodPressure
-from schemas.schemas import BPCreate
-from core.bp_logic import classify_bp
+from app.db.models import BloodPressure
+from app.schemas.schemas import BPCreate
+from app.core.bp_logic import classify_bp
+
 
 def create_for_user(db: Session, user_id: int, data: BPCreate) -> BloodPressure:
     cat = classify_bp(data.systolic, data.diastolic)
@@ -18,6 +19,7 @@ def create_for_user(db: Session, user_id: int, data: BPCreate) -> BloodPressure:
     db.refresh(obj)
     return obj
 
+
 def get_last(db: Session, user_id: int):
     return (
         db.query(BloodPressure)
@@ -26,11 +28,17 @@ def get_last(db: Session, user_id: int):
         .first()
     )
 
+
 def get_list(db: Session, user_id: int, skip: int = 0, limit: int = 50):
-    q = db.query(BloodPressure).filter(BloodPressure.user_id == user_id)
-    total = q.count()
-    items = q.order_by(desc(BloodPressure.taken_at)).offset(skip).limit(limit).all()
+    query = (
+        db.query(BloodPressure)
+        .filter_by(user_id=user_id)
+        .order_by(BloodPressure.taken_at.desc())
+    )
+    total = query.count()
+    items = query.offset(skip).limit(limit).all()
     return items, total
+
 
 def delete_one(db: Session, user_id: int, bp_id: int) -> bool:
     row = (

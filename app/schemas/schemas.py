@@ -2,8 +2,8 @@
 from pydantic import BaseModel, EmailStr, Field, ConfigDict
 from typing import List, Optional
 from datetime import date, datetime
-from enum import Enum
-from core.bp_logic import BPCategory  # <- ADD
+from enum import Enum  # <- ADD
+
 
 # --- Clases Enum para validación estricta de entradas ---
 class SmokingHabit(str, Enum):
@@ -12,16 +12,19 @@ class SmokingHabit(str, Enum):
     exfumador = "Exfumador"
     no_fuma = "No Fumo"
 
+
 class ECigaretteUse(str, Enum):
     diariamente = "Diariamente"
     ocasionalmente = "Ocasionalmente"
     rara_vez = "Rara vez"
     nunca_he_usado = "Nunca he usado"
 
+
 class DiabetesDiagnosis(str, Enum):
     si = "Si"
     no = "No"
     prediabetes = "Prediabetes"
+
 
 # --- Esquemas para Usuarios (Sin cambios) ---
 class UserBase(BaseModel):
@@ -31,18 +34,23 @@ class UserBase(BaseModel):
     birth_date: date
     gender: str
 
+
 class UserCreate(UserBase):
     password: str
+
 
 class UserResponse(UserBase):
     id: int
     created_at: datetime
+
     class Config:
         from_attributes = True
+
 
 # --- Esquemas para Evaluaciones (CORREGIDOS) ---
 class EvaluationCreate(BaseModel):
     """Esquema para los datos que el frontend envía para crear una evaluación."""
+
     weight_kg: float = Field(..., gt=0, description="Peso en kilogramos")
     height_cm: float = Field(..., gt=0, description="Altura en centímetros")
     reduces_salt_intake: bool
@@ -53,6 +61,7 @@ class EvaluationCreate(BaseModel):
     daily_physical_activity: bool
     has_high_cholesterol: bool
     diabetes_diagnosis: DiabetesDiagnosis
+
 
 class EvaluationResponse(BaseModel):
     id: int
@@ -75,8 +84,10 @@ class EvaluationResponse(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
 
+
 class EvaluationHistoryResponse(EvaluationResponse):
     """Esquema para devolver los detalles del historial."""
+
     pass
 
 
@@ -85,8 +96,10 @@ class Token(BaseModel):
     access_token: str
     token_type: str
 
+
 class TokenData(BaseModel):
     email: Optional[str] = None
+
 
 # --- Esquemas para Presión Arterial (CORREGIDOS) ---
 class BPBase(BaseModel):
@@ -94,17 +107,31 @@ class BPBase(BaseModel):
     diastolic: int = Field(..., ge=30, le=180)
     taken_at: datetime
 
+
 class BPCreate(BPBase):
     pass
 
-class BPOut(BPBase):
+
+class BPOut(BaseModel):
     id: int
-    category: BPCategory
-    model_config = ConfigDict(from_attributes=True)
+    systolic: int
+    diastolic: int
+    category: str
+    takenAt: datetime = Field(
+        ..., alias="taken_at"
+    )  # ✅ Usa alias para mapear correctamente
+
+    class Config:
+        from_attributes = True
+        populate_by_name = True
+
 
 class BPList(BaseModel):
-    items: list[BPOut]
+    items: List[BPOut]
     total: int
+    page: int
+    limit: int
+
 
 # --- Esquemas para Factores de Riesgo (CORREGIDOS) ---
 class RiskFactorBase(BaseModel):
@@ -118,6 +145,7 @@ class RiskFactorBase(BaseModel):
     class Config:
         orm_mode = True
 
+
 class ProfileSummary(BaseModel):
     age: int
     gender: str
@@ -125,3 +153,19 @@ class ProfileSummary(BaseModel):
     bmi_category: str
     risk_factors: List[RiskFactorBase]
     days_until_next: int
+
+
+class AppRatingCreate(BaseModel):
+    rating: int = Field(..., ge=1, le=5)
+    comment: str | None = None
+
+
+class AppRatingResponse(BaseModel):
+    id: int
+    user_id: int
+    rating: int
+    comment: str | None
+    created_at: datetime
+
+    class Config:
+        from_attributes = True

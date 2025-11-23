@@ -1,0 +1,737 @@
+2025-11-21 00:00:50,222 INFO evaluations_endpoint Evaluación de riesgo generada: usuario=41, resultado=Bajo | Tiempo: 28.78 ms | Path: /api/v1/evaluations/
+2025-11-21 00:01:22,499 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=0 | Tiempo: 29.50 ms | Path: /api/v1/pressures
+2025-11-21 00:03:32,102 INFO pressures_endpoint Presión registrada: usuario=41, sistólica=117, diastólica=69
+2025-11-21 00:03:32,148 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=1 | Tiempo: 7.90 ms | Path: /api/v1/pressures
+2025-11-21 00:03:57,555 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=1 | Tiempo: 2.77 ms | Path: /api/v1/pressures
+2025-11-21 00:04:25,145 INFO pressures_endpoint Presión registrada: usuario=41, sistólica=125, diastólica=84
+2025-11-21 00:04:25,193 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=2 | Tiempo: 2.63 ms | Path: /api/v1/pressures
+2025-11-21 00:04:30,440 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=2 | Tiempo: 5.42 ms | Path: /api/v1/pressures
+2025-11-21 00:04:36,154 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=1 | Tiempo: 3.06 ms | Path: /api/v1/pressures
+2025-11-21 00:04:36,258 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=1 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-21 00:05:38,490 INFO pressures_endpoint Historial consultado: usuario=41 | Página=1 | Registros=1 | Tiempo: 5.00 ms | Path: /api/v1/pressures
+2025-11-21 01:39:00,148 INFO auth_endpoint Login exitoso: usuario=sergio.vh2806@gmail.com | Tiempo: 219.33 ms | Path: /api/v1/auth/token
+2025-11-21 01:39:01,258 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=1 | Tiempo: 21.07 ms | Path: /api/v1/pressures
+2025-11-21 01:39:11,904 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=1 | Tiempo: 1.46 ms | Path: /api/v1/pressures
+2025-11-21 01:39:29,214 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=1 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-21 01:39:31,517 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=1 | Tiempo: 4.12 ms | Path: /api/v1/pressures
+2025-11-21 01:39:45,898 INFO pressures_endpoint Presión registrada: usuario=6, sistólica=112, diastólica=86
+2025-11-21 01:39:45,936 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=2 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-21 01:39:51,332 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=2 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-21 01:39:53,470 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=1 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-21 01:39:53,605 INFO pressures_endpoint Historial consultado: usuario=6 | Página=1 | Registros=1 | Tiempo: 3.65 ms | Path: /api/v1/pressures
+2025-11-22 10:57:24,184 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 312.09 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,184 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 313.52 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,184 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 311.62 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,185 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 305.07 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,185 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 313.50 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,185 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 322.65 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,185 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 311.42 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,185 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 312.98 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,185 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 313.83 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,186 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 312.25 ms | Path: /api/v1/auth/token
+2025-11-22 10:57:24,337 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 14.96 ms | Path: /api/v1/pressures
+2025-11-22 10:57:24,337 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 28.57 ms | Path: /api/v1/pressures
+2025-11-22 10:57:24,338 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 14.00 ms | Path: /api/v1/pressures
+2025-11-22 10:57:26,245 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 6.12 ms | Path: /api/v1/pressures
+2025-11-22 10:57:27,156 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.97 ms | Path: /api/v1/pressures
+2025-11-22 10:57:27,246 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-22 10:57:27,368 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 10:57:28,588 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 10:57:28,803 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:57:28,990 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.83 ms | Path: /api/v1/pressures
+2025-11-22 10:57:29,896 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 10:57:30,111 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.45 ms | Path: /api/v1/pressures
+2025-11-22 10:57:30,280 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:57:30,588 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 10:57:30,773 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 10:57:30,926 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.26 ms | Path: /api/v1/pressures
+2025-11-22 10:57:30,974 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 10:57:31,385 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.76 ms | Path: /api/v1/pressures
+2025-11-22 10:57:32,461 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 10:57:33,071 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.71 ms | Path: /api/v1/pressures
+2025-11-22 10:57:33,536 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 10:57:33,963 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 10:57:33,996 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:57:35,039 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.64 ms | Path: /api/v1/pressures
+2025-11-22 10:57:35,694 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 10:57:36,049 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 10:57:38,035 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.70 ms | Path: /api/v1/pressures
+2025-11-22 10:57:38,331 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:57:38,840 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:57:39,638 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.37 ms | Path: /api/v1/pressures
+2025-11-22 10:57:40,093 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:57:41,014 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 10:57:41,227 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:57:41,428 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.47 ms | Path: /api/v1/pressures
+2025-11-22 10:57:41,995 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 10:57:42,991 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.85 ms | Path: /api/v1/pressures
+2025-11-22 10:57:43,088 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 10:57:43,427 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:57:43,608 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-22 10:57:44,586 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.30 ms | Path: /api/v1/pressures
+2025-11-22 10:57:44,646 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.11 ms | Path: /api/v1/pressures
+2025-11-22 10:57:44,708 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.63 ms | Path: /api/v1/pressures
+2025-11-22 10:57:44,784 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 10:57:45,244 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:57:45,444 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.26 ms | Path: /api/v1/pressures
+2025-11-22 10:57:46,137 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.13 ms | Path: /api/v1/pressures
+2025-11-22 10:57:46,282 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.52 ms | Path: /api/v1/pressures
+2025-11-22 10:57:46,688 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 10:57:47,399 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.49 ms | Path: /api/v1/pressures
+2025-11-22 10:57:48,278 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 10:57:48,479 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 10:57:48,925 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 10:57:49,187 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 10:57:49,696 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 10:57:50,234 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:57:50,715 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.38 ms | Path: /api/v1/pressures
+2025-11-22 10:57:51,900 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.61 ms | Path: /api/v1/pressures
+2025-11-22 10:57:51,961 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:57:52,162 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 10:57:52,162 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.49 ms | Path: /api/v1/pressures
+2025-11-22 10:57:52,171 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.61 ms | Path: /api/v1/pressures
+2025-11-22 10:57:53,129 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:57:53,267 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 10:57:53,855 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 10:57:54,379 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.73 ms | Path: /api/v1/pressures
+2025-11-22 10:57:54,568 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.12 ms | Path: /api/v1/pressures
+2025-11-22 10:57:55,416 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.13 ms | Path: /api/v1/pressures
+2025-11-22 10:57:55,680 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.41 ms | Path: /api/v1/pressures
+2025-11-22 10:57:55,866 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 10:57:56,820 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 10:57:57,022 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 10:57:57,084 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 10:57:58,481 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:57:59,420 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 10:57:59,591 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:57:59,959 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.69 ms | Path: /api/v1/pressures
+2025-11-22 10:58:02,058 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.01 ms | Path: /api/v1/pressures
+2025-11-22 10:58:02,182 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.46 ms | Path: /api/v1/pressures
+2025-11-22 10:58:02,183 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.29 ms | Path: /api/v1/pressures
+2025-11-22 10:58:02,211 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.49 ms | Path: /api/v1/pressures
+2025-11-22 10:58:02,283 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:58:02,884 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.46 ms | Path: /api/v1/pressures
+2025-11-22 10:58:03,635 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 10:58:03,991 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:58:04,403 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:05,559 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.01 ms | Path: /api/v1/pressures
+2025-11-22 10:58:06,375 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.80 ms | Path: /api/v1/pressures
+2025-11-22 10:58:06,466 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 10:58:06,474 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 10:58:06,880 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 10:58:07,606 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 10:58:07,806 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.52 ms | Path: /api/v1/pressures
+2025-11-22 10:58:07,897 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:58:08,251 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.25 ms | Path: /api/v1/pressures
+2025-11-22 10:58:08,636 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 10:58:08,682 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 10:58:09,035 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:09,161 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 10:58:09,450 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 10:58:09,821 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 10:58:09,896 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 10:58:10,835 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 10:58:10,835 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 10:58:11,141 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 10:58:11,543 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.45 ms | Path: /api/v1/pressures
+2025-11-22 10:58:11,635 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:11,744 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.07 ms | Path: /api/v1/pressures
+2025-11-22 10:58:12,329 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.48 ms | Path: /api/v1/pressures
+2025-11-22 10:58:13,126 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:13,484 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.83 ms | Path: /api/v1/pressures
+2025-11-22 10:58:13,761 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.47 ms | Path: /api/v1/pressures
+2025-11-22 10:58:14,018 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.48 ms | Path: /api/v1/pressures
+2025-11-22 10:58:14,495 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 10:58:15,182 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.81 ms | Path: /api/v1/pressures
+2025-11-22 10:58:15,328 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 10:58:15,835 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 10:58:17,085 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 10:58:17,365 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 10:58:18,332 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 10:58:18,426 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.12 ms | Path: /api/v1/pressures
+2025-11-22 10:58:18,824 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 10:58:19,424 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 10:58:19,655 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 10:58:19,901 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 10:58:19,993 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:20,040 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.48 ms | Path: /api/v1/pressures
+2025-11-22 10:58:20,751 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.61 ms | Path: /api/v1/pressures
+2025-11-22 10:58:21,275 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:21,354 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.55 ms | Path: /api/v1/pressures
+2025-11-22 10:58:21,813 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 10:58:22,155 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 10:58:22,322 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:58:22,987 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 10:58:23,487 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.97 ms | Path: /api/v1/pressures
+2025-11-22 10:58:23,863 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 10:58:24,338 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.43 ms | Path: /api/v1/pressures
+2025-11-22 10:58:24,727 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.21 ms | Path: /api/v1/pressures
+2025-11-22 10:58:26,427 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.20 ms | Path: /api/v1/pressures
+2025-11-22 10:58:26,858 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.80 ms | Path: /api/v1/pressures
+2025-11-22 10:58:26,936 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 10:58:27,304 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.41 ms | Path: /api/v1/pressures
+2025-11-22 10:58:27,602 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 10:58:28,768 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.47 ms | Path: /api/v1/pressures
+2025-11-22 10:58:29,294 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 10:58:29,523 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 10:58:29,679 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.90 ms | Path: /api/v1/pressures
+2025-11-22 10:58:29,708 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 10:58:30,047 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:26:10,653 INFO evaluations_endpoint Evaluación de riesgo generada: usuario=42, resultado=Bajo | Tiempo: 363.95 ms | Path: /api/v1/evaluations/
+2025-11-22 17:26:31,680 INFO pressures_endpoint Historial consultado: usuario=42 | Página=1 | Registros=0 | Tiempo: 8.88 ms | Path: /api/v1/pressures
+2025-11-22 17:26:34,720 INFO pressures_endpoint Historial consultado: usuario=42 | Página=1 | Registros=0 | Tiempo: 1.84 ms | Path: /api/v1/pressures
+2025-11-22 17:30:49,110 INFO evaluations_endpoint Evaluación de riesgo generada: usuario=43, resultado=Bajo | Tiempo: 100.07 ms | Path: /api/v1/evaluations/
+2025-11-22 17:30:54,560 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=0 | Tiempo: 1.85 ms | Path: /api/v1/pressures
+2025-11-22 17:31:06,550 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=96, diastólica=70
+2025-11-22 17:31:06,601 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=1 | Tiempo: 1.99 ms | Path: /api/v1/pressures
+2025-11-22 17:31:15,871 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=109, diastólica=68
+2025-11-22 17:31:15,910 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=2 | Tiempo: 1.68 ms | Path: /api/v1/pressures
+2025-11-22 17:31:24,257 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=129, diastólica=88
+2025-11-22 17:31:24,296 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=3 | Tiempo: 1.92 ms | Path: /api/v1/pressures
+2025-11-22 17:31:33,958 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=122, diastólica=78
+2025-11-22 17:31:34,000 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=4 | Tiempo: 2.12 ms | Path: /api/v1/pressures
+2025-11-22 17:31:47,834 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=104, diastólica=78
+2025-11-22 17:31:47,875 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 17:32:03,013 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=111, diastólica=86
+2025-11-22 17:32:03,053 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=6 | Tiempo: 1.77 ms | Path: /api/v1/pressures
+2025-11-22 17:32:17,494 INFO pressures_endpoint Presión registrada: usuario=43, sistólica=142, diastólica=87
+2025-11-22 17:32:17,534 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=7 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:32:21,423 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=7 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 17:32:25,165 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=5 | Tiempo: 1.47 ms | Path: /api/v1/pressures
+2025-11-22 17:32:28,852 INFO pressures_endpoint Historial consultado: usuario=43 | Página=2 | Registros=2 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:32:30,251 INFO pressures_endpoint Historial consultado: usuario=43 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:33:39,077 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 59.72 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,079 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 60.90 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,083 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 65.34 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,088 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 65.29 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,089 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 67.16 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,130 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.12 ms | Path: /api/v1/pressures
+2025-11-22 17:33:39,151 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.02 ms | Path: /api/v1/pressures
+2025-11-22 17:33:39,176 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 152.18 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,190 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.18 ms | Path: /api/v1/pressures
+2025-11-22 17:33:39,214 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 189.39 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,224 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 198.84 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,231 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 204.19 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,238 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.69 ms | Path: /api/v1/pressures
+2025-11-22 17:33:39,239 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 211.92 ms | Path: /api/v1/auth/token
+2025-11-22 17:33:39,251 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:33:41,305 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.60 ms | Path: /api/v1/pressures
+2025-11-22 17:33:42,112 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:33:42,203 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:33:42,223 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.08 ms | Path: /api/v1/pressures
+2025-11-22 17:33:42,768 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.41 ms | Path: /api/v1/pressures
+2025-11-22 17:33:42,928 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.21 ms | Path: /api/v1/pressures
+2025-11-22 17:33:43,605 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:33:43,756 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.83 ms | Path: /api/v1/pressures
+2025-11-22 17:33:44,100 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:33:44,516 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.62 ms | Path: /api/v1/pressures
+2025-11-22 17:33:44,590 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:33:44,747 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-22 17:33:44,765 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.11 ms | Path: /api/v1/pressures
+2025-11-22 17:33:45,654 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:33:45,747 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:33:46,566 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:33:46,689 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:33:46,719 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 17:33:47,332 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:33:47,502 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:33:47,688 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:33:47,858 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:33:48,999 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.43 ms | Path: /api/v1/pressures
+2025-11-22 17:33:49,397 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.73 ms | Path: /api/v1/pressures
+2025-11-22 17:33:50,957 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:33:51,172 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.26 ms | Path: /api/v1/pressures
+2025-11-22 17:33:51,341 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:33:51,665 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:33:51,741 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 17:33:51,772 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:33:51,987 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:33:52,471 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.85 ms | Path: /api/v1/pressures
+2025-11-22 17:33:52,484 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.19 ms | Path: /api/v1/pressures
+2025-11-22 17:33:52,987 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:33:53,744 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:33:54,465 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:33:55,065 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.94 ms | Path: /api/v1/pressures
+2025-11-22 17:33:55,170 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:33:55,463 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:33:56,833 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:36:04,728 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 25.05 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,811 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 95.04 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,819 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 102.41 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,849 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 139.37 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,852 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 136.29 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,861 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 144.80 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,869 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 153.27 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,873 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 153.78 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,873 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 148.72 ms | Path: /api/v1/auth/token
+2025-11-22 17:36:04,890 WARNING auth_endpoint Login fallido: usuario=maxi120@gmail.com | Tiempo: 171.59 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,921 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 370.93 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,921 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 369.69 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,921 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 362.20 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,921 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 371.28 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,922 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 370.99 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,922 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 371.41 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,922 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 370.90 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,922 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 382.91 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,922 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 370.40 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:33,922 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 362.17 ms | Path: /api/v1/auth/token
+2025-11-22 17:39:34,028 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 23.93 ms | Path: /api/v1/pressures
+2025-11-22 17:39:34,033 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 11.70 ms | Path: /api/v1/pressures
+2025-11-22 17:39:34,035 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 12.79 ms | Path: /api/v1/pressures
+2025-11-22 17:39:34,054 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 28.03 ms | Path: /api/v1/pressures
+2025-11-22 17:39:34,055 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 27.57 ms | Path: /api/v1/pressures
+2025-11-22 17:39:34,085 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.67 ms | Path: /api/v1/pressures
+2025-11-22 17:39:34,086 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.97 ms | Path: /api/v1/pressures
+2025-11-22 17:39:35,797 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.16 ms | Path: /api/v1/pressures
+2025-11-22 17:39:36,477 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-22 17:39:36,600 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:39:36,679 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:39:36,846 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.55 ms | Path: /api/v1/pressures
+2025-11-22 17:39:37,247 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:39:37,479 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.24 ms | Path: /api/v1/pressures
+2025-11-22 17:39:38,188 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:38,234 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.45 ms | Path: /api/v1/pressures
+2025-11-22 17:39:39,422 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:39:39,530 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:39:40,041 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:39:40,130 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:39:41,421 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:41,528 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:39:41,840 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:43,380 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:39:43,426 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.41 ms | Path: /api/v1/pressures
+2025-11-22 17:39:44,110 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.88 ms | Path: /api/v1/pressures
+2025-11-22 17:39:44,241 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:39:44,409 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:39:44,699 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.41 ms | Path: /api/v1/pressures
+2025-11-22 17:39:44,919 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.93 ms | Path: /api/v1/pressures
+2025-11-22 17:39:45,854 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:39:46,198 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-22 17:39:47,259 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:39:47,414 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:39:48,595 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.52 ms | Path: /api/v1/pressures
+2025-11-22 17:39:48,640 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:39:48,828 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 17:39:49,204 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.44 ms | Path: /api/v1/pressures
+2025-11-22 17:39:49,422 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:39:49,824 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.49 ms | Path: /api/v1/pressures
+2025-11-22 17:39:50,993 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.84 ms | Path: /api/v1/pressures
+2025-11-22 17:39:51,091 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:51,539 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:39:52,868 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:39:53,344 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.43 ms | Path: /api/v1/pressures
+2025-11-22 17:39:53,353 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:39:54,097 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.20 ms | Path: /api/v1/pressures
+2025-11-22 17:39:54,159 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.21 ms | Path: /api/v1/pressures
+2025-11-22 17:39:54,263 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.37 ms | Path: /api/v1/pressures
+2025-11-22 17:39:54,809 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 17:39:54,840 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:39:54,902 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:55,720 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:39:56,003 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:39:57,028 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:39:57,182 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 17:39:57,603 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.59 ms | Path: /api/v1/pressures
+2025-11-22 17:39:57,603 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-22 17:39:58,649 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:58,970 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:39:59,002 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 17:39:59,276 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:39:59,740 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:39:59,787 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:40:00,034 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.64 ms | Path: /api/v1/pressures
+2025-11-22 17:40:00,681 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:40:01,407 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:40:01,416 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-22 17:40:01,503 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.12 ms | Path: /api/v1/pressures
+2025-11-22 17:40:01,654 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:40:02,503 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:40:02,924 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.62 ms | Path: /api/v1/pressures
+2025-11-22 17:40:03,014 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:40:03,246 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.54 ms | Path: /api/v1/pressures
+2025-11-22 17:40:03,569 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:40:03,938 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 17:40:04,183 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:40:04,247 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:40:05,170 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:40:05,297 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.05 ms | Path: /api/v1/pressures
+2025-11-22 17:40:05,712 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:40:06,772 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:40:07,811 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.19 ms | Path: /api/v1/pressures
+2025-11-22 17:40:07,859 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.78 ms | Path: /api/v1/pressures
+2025-11-22 17:40:07,968 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.31 ms | Path: /api/v1/pressures
+2025-11-22 17:40:08,220 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:40:08,544 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:40:08,653 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:40:08,760 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.24 ms | Path: /api/v1/pressures
+2025-11-22 17:40:09,451 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.23 ms | Path: /api/v1/pressures
+2025-11-22 17:40:09,507 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.87 ms | Path: /api/v1/pressures
+2025-11-22 17:40:10,148 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.65 ms | Path: /api/v1/pressures
+2025-11-22 17:40:10,316 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.41 ms | Path: /api/v1/pressures
+2025-11-22 17:40:11,295 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.57 ms | Path: /api/v1/pressures
+2025-11-22 17:40:11,350 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.95 ms | Path: /api/v1/pressures
+2025-11-22 17:40:11,656 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.23 ms | Path: /api/v1/pressures
+2025-11-22 17:40:12,020 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.58 ms | Path: /api/v1/pressures
+2025-11-22 17:51:46,669 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 298.58 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,669 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 297.64 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,670 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 298.86 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,670 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 291.66 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,670 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 301.16 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,670 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 309.77 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,670 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 300.92 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,744 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 374.64 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,744 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 374.74 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,745 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 367.44 ms | Path: /api/v1/auth/token
+2025-11-22 17:51:46,824 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 18.08 ms | Path: /api/v1/pressures
+2025-11-22 17:51:46,825 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 11.56 ms | Path: /api/v1/pressures
+2025-11-22 17:51:46,826 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 31.68 ms | Path: /api/v1/pressures
+2025-11-22 17:51:46,865 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 6.99 ms | Path: /api/v1/pressures
+2025-11-22 17:51:48,497 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.24 ms | Path: /api/v1/pressures
+2025-11-22 17:51:50,150 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:51:50,722 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:51:51,140 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.25 ms | Path: /api/v1/pressures
+2025-11-22 17:51:51,144 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.49 ms | Path: /api/v1/pressures
+2025-11-22 17:51:52,009 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:51:52,834 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.70 ms | Path: /api/v1/pressures
+2025-11-22 17:51:52,948 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:51:52,980 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:51:53,473 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:51:53,783 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.25 ms | Path: /api/v1/pressures
+2025-11-22 17:51:55,014 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:51:55,022 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:51:55,384 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-22 17:51:55,756 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.20 ms | Path: /api/v1/pressures
+2025-11-22 17:51:55,770 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:51:56,404 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:51:57,054 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:51:57,145 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.51 ms | Path: /api/v1/pressures
+2025-11-22 17:51:57,344 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:51:57,499 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:51:57,823 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.62 ms | Path: /api/v1/pressures
+2025-11-22 17:51:58,009 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:51:58,794 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:52:00,351 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:52:00,567 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.61 ms | Path: /api/v1/pressures
+2025-11-22 17:52:01,029 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:52:01,060 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:52:02,517 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.63 ms | Path: /api/v1/pressures
+2025-11-22 17:52:02,635 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 17:52:02,807 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.76 ms | Path: /api/v1/pressures
+2025-11-22 17:52:02,883 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:52:03,713 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:52:04,606 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.97 ms | Path: /api/v1/pressures
+2025-11-22 17:52:05,008 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.80 ms | Path: /api/v1/pressures
+2025-11-22 17:52:05,179 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.31 ms | Path: /api/v1/pressures
+2025-11-22 17:52:05,191 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.87 ms | Path: /api/v1/pressures
+2025-11-22 17:52:05,282 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:52:05,728 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:52:06,035 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:52:06,128 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:52:07,119 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:52:07,414 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.43 ms | Path: /api/v1/pressures
+2025-11-22 17:52:07,491 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.43 ms | Path: /api/v1/pressures
+2025-11-22 17:52:07,863 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:52:07,871 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:52:09,067 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 17:52:09,313 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:52:09,467 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:52:10,133 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.76 ms | Path: /api/v1/pressures
+2025-11-22 17:52:10,133 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.55 ms | Path: /api/v1/pressures
+2025-11-22 17:52:11,226 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.62 ms | Path: /api/v1/pressures
+2025-11-22 17:52:11,722 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.12 ms | Path: /api/v1/pressures
+2025-11-22 17:52:11,877 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 8.09 ms | Path: /api/v1/pressures
+2025-11-22 17:52:12,164 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:52:13,428 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.63 ms | Path: /api/v1/pressures
+2025-11-22 17:52:13,476 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.32 ms | Path: /api/v1/pressures
+2025-11-22 17:52:13,504 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.12 ms | Path: /api/v1/pressures
+2025-11-22 17:52:13,751 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.59 ms | Path: /api/v1/pressures
+2025-11-22 17:52:15,832 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.86 ms | Path: /api/v1/pressures
+2025-11-22 17:52:16,445 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.48 ms | Path: /api/v1/pressures
+2025-11-22 17:52:16,675 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.96 ms | Path: /api/v1/pressures
+2025-11-22 17:52:16,796 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.74 ms | Path: /api/v1/pressures
+2025-11-22 17:52:17,200 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:52:17,987 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:52:18,573 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:52:20,629 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.50 ms | Path: /api/v1/pressures
+2025-11-22 17:52:21,304 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:52:21,535 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-22 17:52:21,939 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.60 ms | Path: /api/v1/pressures
+2025-11-22 17:52:22,663 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.75 ms | Path: /api/v1/pressures
+2025-11-22 17:52:23,641 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.54 ms | Path: /api/v1/pressures
+2025-11-22 17:52:24,401 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:52:24,911 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.45 ms | Path: /api/v1/pressures
+2025-11-22 17:52:25,097 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.98 ms | Path: /api/v1/pressures
+2025-11-22 17:52:25,681 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:52:27,727 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.83 ms | Path: /api/v1/pressures
+2025-11-22 17:52:28,600 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:52:29,046 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.79 ms | Path: /api/v1/pressures
+2025-11-22 17:52:29,432 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:52:30,110 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:52:30,127 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.15 ms | Path: /api/v1/pressures
+2025-11-22 17:52:30,279 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.23 ms | Path: /api/v1/pressures
+2025-11-22 17:52:30,630 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:52:32,237 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.73 ms | Path: /api/v1/pressures
+2025-11-22 17:52:32,445 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.43 ms | Path: /api/v1/pressures
+2025-11-22 17:52:32,815 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.83 ms | Path: /api/v1/pressures
+2025-11-22 17:52:34,092 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:52:34,583 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:52:34,785 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.95 ms | Path: /api/v1/pressures
+2025-11-22 17:52:34,814 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:52:34,939 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:52:35,532 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.70 ms | Path: /api/v1/pressures
+2025-11-22 17:52:36,780 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:52:37,391 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.42 ms | Path: /api/v1/pressures
+2025-11-22 17:52:38,227 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:52:39,120 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:52:39,335 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:52:39,736 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.61 ms | Path: /api/v1/pressures
+2025-11-22 17:52:40,030 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.26 ms | Path: /api/v1/pressures
+2025-11-22 17:52:40,755 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 17:52:41,030 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:52:41,965 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-22 17:52:42,152 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.60 ms | Path: /api/v1/pressures
+2025-11-22 17:52:43,293 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:52:43,615 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:52:44,953 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.45 ms | Path: /api/v1/pressures
+2025-11-22 17:52:45,041 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.98 ms | Path: /api/v1/pressures
+2025-11-22 17:52:45,220 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.29 ms | Path: /api/v1/pressures
+2025-11-22 17:52:45,553 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.21 ms | Path: /api/v1/pressures
+2025-11-22 17:52:46,141 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:52:46,388 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:52:46,499 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.58 ms | Path: /api/v1/pressures
+2025-11-22 17:52:46,499 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.38 ms | Path: /api/v1/pressures
+2025-11-22 17:52:47,359 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:52:47,567 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.75 ms | Path: /api/v1/pressures
+2025-11-22 17:52:48,301 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:52:48,827 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:52:49,072 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:57:10,325 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 280.11 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,325 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 292.33 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,325 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 281.81 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,326 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 281.85 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,379 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 328.39 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,381 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 336.34 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,401 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 347.51 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,402 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 347.86 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,404 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 349.19 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,404 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 355.38 ms | Path: /api/v1/auth/token
+2025-11-22 17:57:10,405 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 38.28 ms | Path: /api/v1/pressures
+2025-11-22 17:57:10,409 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 8.48 ms | Path: /api/v1/pressures
+2025-11-22 17:57:10,475 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 10.84 ms | Path: /api/v1/pressures
+2025-11-22 17:57:10,482 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 11.69 ms | Path: /api/v1/pressures
+2025-11-22 17:57:11,516 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.97 ms | Path: /api/v1/pressures
+2025-11-22 17:57:11,794 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.85 ms | Path: /api/v1/pressures
+2025-11-22 17:57:11,984 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.89 ms | Path: /api/v1/pressures
+2025-11-22 17:57:12,206 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.20 ms | Path: /api/v1/pressures
+2025-11-22 17:57:12,313 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:57:12,655 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:57:13,024 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.90 ms | Path: /api/v1/pressures
+2025-11-22 17:57:13,797 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.07 ms | Path: /api/v1/pressures
+2025-11-22 17:57:14,399 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:57:14,536 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.51 ms | Path: /api/v1/pressures
+2025-11-22 17:57:15,166 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:57:15,878 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:57:15,959 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.40 ms | Path: /api/v1/pressures
+2025-11-22 17:57:16,168 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 17:57:16,462 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:57:16,876 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:57:17,078 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 17:57:17,432 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.24 ms | Path: /api/v1/pressures
+2025-11-22 17:57:17,894 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:57:18,311 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.45 ms | Path: /api/v1/pressures
+2025-11-22 17:57:18,558 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:57:18,588 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 17:57:18,755 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:57:20,626 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.25 ms | Path: /api/v1/pressures
+2025-11-22 17:57:20,875 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.42 ms | Path: /api/v1/pressures
+2025-11-22 17:57:21,526 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.75 ms | Path: /api/v1/pressures
+2025-11-22 17:57:22,186 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:57:22,310 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:59:26,963 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 266.93 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,963 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 274.52 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,963 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 250.11 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,963 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 297.81 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,964 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 291.38 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,964 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 309.09 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,964 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 292.43 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:26,965 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 269.93 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:27,037 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 364.09 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:27,037 INFO auth_endpoint Login exitoso: usuario=consuelo@gmail.com | Tiempo: 366.28 ms | Path: /api/v1/auth/token
+2025-11-22 17:59:27,127 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:27,128 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:27,131 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:27,177 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 14.08 ms | Path: /api/v1/pressures
+2025-11-22 17:59:27,186 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:27,303 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:28,422 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:28,747 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:29,284 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:29,412 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.65 ms | Path: /api/v1/pressures
+2025-11-22 17:59:29,685 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:29,858 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 17:59:31,498 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:59:31,648 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:31,930 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.63 ms | Path: /api/v1/pressures
+2025-11-22 17:59:31,984 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:32,101 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:32,128 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:32,798 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:32,858 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.37 ms | Path: /api/v1/pressures
+2025-11-22 17:59:33,004 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.07 ms | Path: /api/v1/pressures
+2025-11-22 17:59:33,538 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.62 ms | Path: /api/v1/pressures
+2025-11-22 17:59:33,569 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 17:59:33,888 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.81 ms | Path: /api/v1/pressures
+2025-11-22 17:59:34,953 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.30 ms | Path: /api/v1/pressures
+2025-11-22 17:59:35,041 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:35,308 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:59:35,647 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:59:35,985 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:59:36,048 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.55 ms | Path: /api/v1/pressures
+2025-11-22 17:59:36,384 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:36,526 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:36,951 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:36,959 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:37,244 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.24 ms | Path: /api/v1/pressures
+2025-11-22 17:59:37,641 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:38,305 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:38,356 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:38,736 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.13 ms | Path: /api/v1/pressures
+2025-11-22 17:59:38,912 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:38,918 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:39,580 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:39,699 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:40,323 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.57 ms | Path: /api/v1/pressures
+2025-11-22 17:59:40,335 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:40,491 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:59:41,272 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:41,600 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:59:41,750 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:41,771 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:42,016 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:42,549 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:42,923 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:59:43,187 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.92 ms | Path: /api/v1/pressures
+2025-11-22 17:59:43,401 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:59:43,494 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:43,896 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:59:43,974 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:44,627 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:44,628 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:44,856 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:45,223 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:45,380 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:59:45,622 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.79 ms | Path: /api/v1/pressures
+2025-11-22 17:59:45,890 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:59:46,058 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:59:46,116 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:46,938 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.40 ms | Path: /api/v1/pressures
+2025-11-22 17:59:46,950 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:47,185 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.91 ms | Path: /api/v1/pressures
+2025-11-22 17:59:47,342 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:47,398 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:59:48,623 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:48,807 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:48,981 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.03 ms | Path: /api/v1/pressures
+2025-11-22 17:59:49,341 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:49,371 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.55 ms | Path: /api/v1/pressures
+2025-11-22 17:59:49,371 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.36 ms | Path: /api/v1/pressures
+2025-11-22 17:59:49,848 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.28 ms | Path: /api/v1/pressures
+2025-11-22 17:59:49,972 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:50,248 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:59:50,542 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.05 ms | Path: /api/v1/pressures
+2025-11-22 17:59:50,560 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.73 ms | Path: /api/v1/pressures
+2025-11-22 17:59:50,569 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:51,498 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:51,814 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:52,099 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:52,217 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.11 ms | Path: /api/v1/pressures
+2025-11-22 17:59:52,329 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:52,338 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:53,202 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:53,750 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.09 ms | Path: /api/v1/pressures
+2025-11-22 17:59:53,791 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:53,866 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.33 ms | Path: /api/v1/pressures
+2025-11-22 17:59:53,980 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:54,180 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:59:54,254 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:54,259 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.66 ms | Path: /api/v1/pressures
+2025-11-22 17:59:54,396 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:59:54,594 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:55,335 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:55,386 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 17:59:55,567 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.91 ms | Path: /api/v1/pressures
+2025-11-22 17:59:55,798 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:56,046 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:56,051 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:56,173 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 17:59:56,180 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 17:59:56,540 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:56,667 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 17:59:57,468 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:58,549 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:58,558 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:59,187 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.27 ms | Path: /api/v1/pressures
+2025-11-22 17:59:59,244 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 17:59:59,696 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 17:59:59,923 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:00,052 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.46 ms | Path: /api/v1/pressures
+2025-11-22 18:00:00,870 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.73 ms | Path: /api/v1/pressures
+2025-11-22 18:00:01,004 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:01,193 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 18:00:01,313 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:01,465 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:01,594 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 18:00:01,901 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.35 ms | Path: /api/v1/pressures
+2025-11-22 18:00:02,116 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.21 ms | Path: /api/v1/pressures
+2025-11-22 18:00:02,133 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.25 ms | Path: /api/v1/pressures
+2025-11-22 18:00:02,706 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 18:00:03,119 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:03,357 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:03,447 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.22 ms | Path: /api/v1/pressures
+2025-11-22 18:00:04,107 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:04,368 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:04,528 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.66 ms | Path: /api/v1/pressures
+2025-11-22 18:00:04,529 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.52 ms | Path: /api/v1/pressures
+2025-11-22 18:00:05,324 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 4.69 ms | Path: /api/v1/pressures
+2025-11-22 18:00:05,902 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.67 ms | Path: /api/v1/pressures
+2025-11-22 18:00:06,269 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:06,410 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 18:00:07,005 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:07,063 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.62 ms | Path: /api/v1/pressures
+2025-11-22 18:00:07,168 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.65 ms | Path: /api/v1/pressures
+2025-11-22 18:00:08,732 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 3.67 ms | Path: /api/v1/pressures
+2025-11-22 18:00:08,745 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 2.83 ms | Path: /api/v1/pressures
+2025-11-22 18:00:08,797 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:09,193 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:09,926 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-22 18:00:10,044 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:10,872 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:11,103 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:11,599 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.31 ms | Path: /api/v1/pressures
+2025-11-22 18:00:11,672 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:12,047 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 5.01 ms | Path: /api/v1/pressures
+2025-11-22 18:00:12,376 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.53 ms | Path: /api/v1/pressures
+2025-11-22 18:00:12,499 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.41 ms | Path: /api/v1/pressures
+2025-11-22 18:00:12,761 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.34 ms | Path: /api/v1/pressures
+2025-11-22 18:00:12,810 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:12,823 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.39 ms | Path: /api/v1/pressures
+2025-11-22 18:00:13,142 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:13,393 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:13,763 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:13,872 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.33 ms | Path: /api/v1/pressures
+2025-11-22 18:00:14,687 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:14,778 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:14,965 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.32 ms | Path: /api/v1/pressures
+2025-11-22 18:00:15,240 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:15,250 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.90 ms | Path: /api/v1/pressures
+2025-11-22 18:00:15,399 INFO pressures_endpoint Presión registrada: usuario=30, sistólica=120, diastólica=80
+2025-11-22 18:00:15,415 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.56 ms | Path: /api/v1/pressures
+2025-11-22 18:00:16,724 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.71 ms | Path: /api/v1/pressures
+2025-11-22 18:00:16,757 INFO pressures_endpoint Historial consultado: usuario=30 | Página=1 | Registros=5 | Tiempo: 1.29 ms | Path: /api/v1/pressures
+2025-11-22 20:00:53,145 INFO evaluations_endpoint Evaluación de riesgo generada: usuario=44, resultado=Bajo | Tiempo: 557.03 ms | Path: /api/v1/evaluations/
+2025-11-22 20:01:02,315 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=0 | Tiempo: 20.27 ms | Path: /api/v1/pressures
+2025-11-22 20:01:19,561 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=0 | Tiempo: 2.20 ms | Path: /api/v1/pressures
+2025-11-22 20:01:24,965 INFO pressures_endpoint Presión registrada: usuario=44, sistólica=106, diastólica=71
+2025-11-22 20:01:25,008 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=1 | Tiempo: 5.59 ms | Path: /api/v1/pressures
+2025-11-22 20:01:26,717 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=1 | Tiempo: 2.82 ms | Path: /api/v1/pressures
+2025-11-22 20:01:45,972 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=1 | Tiempo: 1.44 ms | Path: /api/v1/pressures

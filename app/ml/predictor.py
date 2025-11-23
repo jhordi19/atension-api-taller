@@ -10,14 +10,24 @@ try:
 except ImportError:
     EvaluationCreate = Any  # fallback
 
+
 class HypertensionPredictor:
     def __init__(self, model_path: str):
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Modelo no encontrado: {model_path}")
         self.model = joblib.load(model_path)
         self.feature_order = [
-            'Age', 'Sex', 'BMI', 'Salt', 'PhysActivity', 'Smoker',
-            'MentHlth', 'Alcohol', 'Vaper', 'Diabetes', 'HighChol'
+            "Age",
+            "Sex",
+            "BMI",
+            "Salt",
+            "PhysActivity",
+            "Smoker",
+            "MentHlth",
+            "Alcohol",
+            "Vaper",
+            "Diabetes",
+            "HighChol",
         ]
 
     # -------------------- Utilidades --------------------
@@ -38,8 +48,21 @@ class HypertensionPredictor:
         return today.year - bd.year - ((today.month, today.day) < (bd.month, bd.day))
 
     def _map_age_to_group(self, age: int) -> int:
-        bins = [(18,24),(25,29),(30,34),(35,39),(40,44),(45,49),(50,54),(55,59),(60,64),(65,69),(70,74),(75,79)]
-        for idx,(a,b) in enumerate(bins, start=1):
+        bins = [
+            (18, 24),
+            (25, 29),
+            (30, 34),
+            (35, 39),
+            (40, 44),
+            (45, 49),
+            (50, 54),
+            (55, 59),
+            (60, 64),
+            (65, 69),
+            (70, 74),
+            (75, 79),
+        ]
+        for idx, (a, b) in enumerate(bins, start=1):
             if a <= age <= b:
                 return idx
         return 13  # 80+
@@ -104,32 +127,48 @@ class HypertensionPredictor:
         return 1 if g in {"hombre", "male", "m"} else 0  # 1=Hombre, 0=Mujer
 
     # -------------------- Construcción de features --------------------
-    def _map_inputs_to_model_features(self, age_group: int, gender: str, evaluation_data: Any) -> dict:
+    def _map_inputs_to_model_features(
+        self, age_group: int, gender: str, evaluation_data: Any
+    ) -> dict:
         weight = self._get(evaluation_data, "weight_kg")
         height = self._get(evaluation_data, "height_cm")
         bmi = self._calculate_bmi(weight, height)
         return {
-            'Age': age_group,
-            'Sex': self._normalize_gender(gender),
-            'BMI': round(bmi),
-            'Salt': 1 if self._get(evaluation_data, "reduces_salt_intake") else 0,
-            'PhysActivity': 1 if self._get(evaluation_data, "daily_physical_activity") else 0,
-            'Smoker': self._normalize_smoker(self._get(evaluation_data, "smoking_habit")),
-            'MentHlth': self._get(evaluation_data, "stress_days_last_month"),
-            'Alcohol': 1 if self._get(evaluation_data, "alcohol_in_last_30_days") else 0,
-            'Vaper': self._normalize_vaper(self._get(evaluation_data, "e_cigarette_use")),
-            'Diabetes': self._normalize_diabetes(self._get(evaluation_data, "diabetes_diagnosis")),
-            'HighChol': 1 if self._get(evaluation_data, "has_high_cholesterol") else 0,
+            "Age": age_group,
+            "Sex": self._normalize_gender(gender),
+            "BMI": round(bmi),
+            "Salt": 1 if self._get(evaluation_data, "reduces_salt_intake") else 0,
+            "PhysActivity": (
+                1 if self._get(evaluation_data, "daily_physical_activity") else 0
+            ),
+            "Smoker": self._normalize_smoker(
+                self._get(evaluation_data, "smoking_habit")
+            ),
+            "MentHlth": self._get(evaluation_data, "stress_days_last_month"),
+            "Alcohol": (
+                1 if self._get(evaluation_data, "alcohol_in_last_30_days") else 0
+            ),
+            "Vaper": self._normalize_vaper(
+                self._get(evaluation_data, "e_cigarette_use")
+            ),
+            "Diabetes": self._normalize_diabetes(
+                self._get(evaluation_data, "diabetes_diagnosis")
+            ),
+            "HighChol": 1 if self._get(evaluation_data, "has_high_cholesterol") else 0,
         }, bmi
 
     # -------------------- Predicción --------------------
     def predict(self, user_data: dict, evaluation_data: Any):
-        age_real = self._calculate_age(user_data['birth_date'])
+        age_real = self._calculate_age(user_data["birth_date"])
         age_group = self._map_age_to_group(age_real)
-        features_dict, bmi = self._map_inputs_to_model_features(age_group, user_data['gender'], evaluation_data)
+        features_dict, bmi = self._map_inputs_to_model_features(
+            age_group, user_data["gender"], evaluation_data
+        )
 
         # Ordenar vector
-        input_vector = np.array([features_dict[name] for name in self.feature_order], dtype=float).reshape(1, -1)
+        input_vector = np.array(
+            [features_dict[name] for name in self.feature_order], dtype=float
+        ).reshape(1, -1)
 
         proba = float(self.model.predict_proba(input_vector)[0][1])
 
@@ -143,6 +182,9 @@ class HypertensionPredictor:
         # Devuelve la tupla esperada por el endpoint
         return proba, risk_level, bmi, age_real
 
+
 # Inicialización
-model_file_path = os.path.join(os.path.dirname(__file__), "models", "modelo_rf_actualizado.pkl")
+model_file_path = os.path.join(
+    os.path.dirname(__file__), "models", "modelo_rf_actualizado.pkl"
+)
 predictor = HypertensionPredictor(model_path=model_file_path)

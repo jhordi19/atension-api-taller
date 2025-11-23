@@ -1,10 +1,20 @@
 # db/models.py
-from sqlalchemy import Column, Integer, String, Boolean, Float, ForeignKey, DateTime, Enum as SAEnum, func
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+    Boolean,
+    Float,
+    ForeignKey,
+    DateTime,
+    func,
+)
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from db.base import Base
-from core.bp_logic import BPCategory
+from app.db.base import Base
+from app.core.bp_logic import BPCategory
 from sqlalchemy import Enum as PgEnum
+
 
 class User(Base):
     __tablename__ = "users"
@@ -16,12 +26,18 @@ class User(Base):
     birth_date = Column(String)
     gender = Column(String)
     created_at = Column(DateTime, default=datetime.utcnow)
-    evaluations = relationship("Evaluation", back_populates="user", cascade="all,delete-orphan")
+    evaluations = relationship(
+        "Evaluation", back_populates="user", cascade="all,delete-orphan"
+    )
+    app_ratings = relationship("AppRating", back_populates="user")
+
 
 class Evaluation(Base):
     __tablename__ = "evaluations"
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False)
+    user_id = Column(
+        Integer, ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False
+    )
     weight_kg = Column(Float, nullable=False)
     height_cm = Column(Float, nullable=False)
     imc = Column(Float, nullable=False)
@@ -40,14 +56,31 @@ class Evaluation(Base):
 
     user = relationship("User", back_populates="evaluations")
 
+
 class BloodPressure(Base):
     __tablename__ = "blood_pressures"
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False)
+    user_id = Column(
+        Integer, ForeignKey("users.id", ondelete="CASCADE"), index=True, nullable=False
+    )
     systolic = Column(Integer, nullable=False)
     diastolic = Column(Integer, nullable=False)
     taken_at = Column(DateTime(timezone=True), nullable=False)
     category = Column(PgEnum(BPCategory, name="bp_category"), nullable=False)
-    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+    created_at = Column(
+        DateTime(timezone=True), server_default=func.now(), nullable=False
+    )
 
     user = relationship("User", backref="blood_pressures")
+
+
+class AppRating(Base):
+    __tablename__ = "app_ratings"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    rating = Column(Integer, nullable=False)  # 1-5 estrellas
+    comment = Column(String, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    user = relationship("User", back_populates="app_ratings")

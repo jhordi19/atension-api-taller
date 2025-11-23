@@ -1,14 +1,16 @@
 # crud/crud_user.py
 from sqlalchemy.orm import Session
-from db import models
-from schemas import schemas
-from core.security import get_password_hash
+from app.db import models
+from app.schemas import schemas
+from app.core.security import get_password_hash
+
 
 def get_user_by_email(db: Session, email: str):
     """
     Busca un usuario por su dirección de correo electrónico.
     """
     return db.query(models.User).filter(models.User.email == email).first()
+
 
 def create_user(db: Session, user: schemas.UserCreate):
     """
@@ -21,7 +23,7 @@ def create_user(db: Session, user: schemas.UserCreate):
         first_name=user.first_name,
         last_name=user.last_name,
         birth_date=user.birth_date,
-        gender=user.gender
+        gender=user.gender,
     )
     db.add(db_user)
     db.commit()
