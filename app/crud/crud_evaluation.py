@@ -1,7 +1,7 @@
 # crud/crud_evaluation.py
 from sqlalchemy.orm import Session
-from app.db import models
-from app.schemas import schemas
+from db import models
+from schemas import schemas
 from enum import Enum
 
 

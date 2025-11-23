@@ -1,9 +1,8 @@
 # crud/crud_user.py
 from sqlalchemy.orm import Session
-from app.db import models
-from app.schemas import schemas
-from app.core.security import get_password_hash
-
+from db import models
+from schemas import schemas
+from core.security import get_password_hash
 
 def get_user_by_email(db: Session, email: str):
     """

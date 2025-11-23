@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
-from app.db.models import BloodPressure
-from app.schemas.schemas import BPCreate
-from app.core.bp_logic import classify_bp
+from db.models import BloodPressure
+from schemas.schemas import BPCreate
+from core.bp_logic import classify_bp
 
 
 def create_for_user(db: Session, user_id: int, data: BPCreate) -> BloodPressure:

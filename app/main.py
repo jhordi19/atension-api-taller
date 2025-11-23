@@ -3,10 +3,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware  # ✅ Importa el middleware
 
-from app.db import base as db_base
-from app.api.endpoints import users, auth, evaluations, pressures, ratings
-from app.db.update_enum import update_bp_category_enum
-from app.core.log_config import setup_logging
+from db import base as db_base
+from api.endpoints import users, auth, evaluations, pressures, ratings
+from db.update_enum import update_bp_category_enum
+from core.log_config import setup_logging
 
 app = FastAPI(
     title="aTensión Backend API",

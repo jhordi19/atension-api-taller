@@ -3,9 +3,8 @@ from typing import Optional
 from jose import jwt
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordBearer
-from app.core.config import settings
-from datetime import timedelta
-from app.core import security, config
+from core.config import settings
+from core import security, config
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 

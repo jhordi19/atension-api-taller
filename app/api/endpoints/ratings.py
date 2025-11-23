@@ -4,10 +4,10 @@ logger = logging.getLogger("ratings_endpoint")
 
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from app.api.deps import get_db, get_current_user
-from app.db.models import User
-from app.schemas.schemas import AppRatingCreate, AppRatingResponse
-from app.crud import crud_rating
+from api.deps import get_db, get_current_user
+from db.models import User
+from schemas.schemas import AppRatingCreate, AppRatingResponse
+from crud import crud_rating
 
 # El prefijo "/ratings" se aplicará a todas las rutas de este router
 router = APIRouter(prefix="/ratings", tags=["ratings"])

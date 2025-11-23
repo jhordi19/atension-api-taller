@@ -11,8 +11,8 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import relationship
 from datetime import datetime
-from app.db.base import Base
-from app.core.bp_logic import BPCategory
+from db.base import Base
+from core.bp_logic import BPCategory
 from sqlalchemy import Enum as PgEnum
 
 

@@ -735,3 +735,8 @@
 2025-11-22 20:01:25,008 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=1 | Tiempo: 5.59 ms | Path: /api/v1/pressures
 2025-11-22 20:01:26,717 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=1 | Tiempo: 2.82 ms | Path: /api/v1/pressures
 2025-11-22 20:01:45,972 INFO pressures_endpoint Historial consultado: usuario=44 | Página=1 | Registros=1 | Tiempo: 1.44 ms | Path: /api/v1/pressures
+2025-11-23 15:53:39,043 INFO auth_endpoint Login exitoso: usuario=j123@gmail.com | Tiempo: 73.60 ms | Path: /api/v1/auth/token
+2025-11-23 15:53:39,123 INFO pressures_endpoint Historial consultado: usuario=5 | Página=1 | Registros=4 | Tiempo: 20.32 ms | Path: /api/v1/pressures
+2025-11-23 15:54:44,889 INFO evaluations_endpoint Evaluación de riesgo generada: usuario=5, resultado=Alto | Tiempo: 46.44 ms | Path: /api/v1/evaluations/
+2025-11-23 15:55:03,466 INFO ratings_endpoint Valoración registrada: usuario=5, rating=5
+2025-11-23 15:55:24,129 INFO pressures_endpoint Historial consultado: usuario=5 | Página=1 | Registros=4 | Tiempo: 1.86 ms | Path: /api/v1/pressures

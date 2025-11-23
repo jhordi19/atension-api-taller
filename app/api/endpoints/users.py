@@ -3,10 +3,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
-from app.db.base import get_db
-from app.schemas import schemas
-from app.crud import crud_user
-from app.core.security import generate_tokens
+from db.base import get_db
+from schemas import schemas
+from crud import crud_user
+from core.security import generate_tokens
 
 router = APIRouter(prefix="/users", tags=["users"])
 

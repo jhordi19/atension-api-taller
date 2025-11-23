@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from app.db.models import AppRating
-from app.schemas.schemas import AppRatingCreate
+from db.models import AppRating
+from schemas.schemas import AppRatingCreate
 
 
 def create_rating(db: Session, user_id: int, rating_data: AppRatingCreate) -> AppRating:
